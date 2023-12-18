@@ -14,6 +14,9 @@
 		5A65101F2B300B97008C5A9E /* UIElementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65101E2B300B97008C5A9E /* UIElementTests.swift */; };
 		5A6510292B300B97008C5A9E /* UIElementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6510282B300B97008C5A9E /* UIElementUITests.swift */; };
 		5A65102B2B300B97008C5A9E /* UIElementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65102A2B300B97008C5A9E /* UIElementUITestsLaunchTests.swift */; };
+		5A65103C2B300CC8008C5A9E /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65103B2B300CC8008C5A9E /* SheetView.swift */; };
+		5A65103E2B300D5E008C5A9E /* FullSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65103D2B300D5E008C5A9E /* FullSheetView.swift */; };
+		5A6510412B300E55008C5A9E /* FullScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6510402B300E55008C5A9E /* FullScreenCover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		5A6510242B300B97008C5A9E /* UIElementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIElementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6510282B300B97008C5A9E /* UIElementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementUITests.swift; sourceTree = "<group>"; };
 		5A65102A2B300B97008C5A9E /* UIElementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5A65103B2B300CC8008C5A9E /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		5A65103D2B300D5E008C5A9E /* FullSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullSheetView.swift; sourceTree = "<group>"; };
+		5A6510402B300E55008C5A9E /* FullScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenCover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		5A65100C2B300B96008C5A9E /* UIElement */ = {
 			isa = PBXGroup;
 			children = (
+				5A65103A2B300CBC008C5A9E /* Sheet */,
 				5A65100D2B300B96008C5A9E /* UIElementApp.swift */,
 				5A65100F2B300B96008C5A9E /* ContentView.swift */,
 				5A6510112B300B97008C5A9E /* Assets.xcassets */,
@@ -125,6 +132,24 @@
 				5A65102A2B300B97008C5A9E /* UIElementUITestsLaunchTests.swift */,
 			);
 			path = UIElementUITests;
+			sourceTree = "<group>";
+		};
+		5A65103A2B300CBC008C5A9E /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				5A65103F2B300E37008C5A9E /* FullSheetView */,
+				5A65103B2B300CC8008C5A9E /* SheetView.swift */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		5A65103F2B300E37008C5A9E /* FullSheetView */ = {
+			isa = PBXGroup;
+			children = (
+				5A65103D2B300D5E008C5A9E /* FullSheetView.swift */,
+				5A6510402B300E55008C5A9E /* FullScreenCover.swift */,
+			);
+			path = FullSheetView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A6510102B300B96008C5A9E /* ContentView.swift in Sources */,
+				5A65103E2B300D5E008C5A9E /* FullSheetView.swift in Sources */,
+				5A65103C2B300CC8008C5A9E /* SheetView.swift in Sources */,
+				5A6510412B300E55008C5A9E /* FullScreenCover.swift in Sources */,
 				5A65100E2B300B96008C5A9E /* UIElementApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
