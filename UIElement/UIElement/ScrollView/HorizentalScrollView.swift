@@ -11,7 +11,7 @@ struct HorizentalScrollView: View {
     @State private var selectedNum: Int?
     
     var body: some View {
-        ScrollView(.horizontal) {
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {
                 ForEach(1...12, id: \.self) { index in
                     Text("\(index)")
