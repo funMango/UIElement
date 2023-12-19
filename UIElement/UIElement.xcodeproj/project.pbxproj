@@ -22,6 +22,7 @@
 		5A6510482B30141B008C5A9E /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6510472B30141B008C5A9E /* ColorView.swift */; };
 		5A65104A2B301973008C5A9E /* NavigationSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6510492B301973008C5A9E /* NavigationSampleView.swift */; };
 		5AC9E3242B31242800A52F8B /* HorizentalScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC9E3232B31242800A52F8B /* HorizentalScrollView.swift */; };
+		5AC9E3262B31286200A52F8B /* HorizentalScorllTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC9E3252B31286200A52F8B /* HorizentalScorllTapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		5A6510472B30141B008C5A9E /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 		5A6510492B301973008C5A9E /* NavigationSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSampleView.swift; sourceTree = "<group>"; };
 		5AC9E3232B31242800A52F8B /* HorizentalScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizentalScrollView.swift; sourceTree = "<group>"; };
+		5AC9E3252B31286200A52F8B /* HorizentalScorllTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizentalScorllTapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				5AC9E3232B31242800A52F8B /* HorizentalScrollView.swift */,
+				5AC9E3252B31286200A52F8B /* HorizentalScorllTapView.swift */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			files = (
 				5A6510462B3011A7008C5A9E /* NumberView.swift in Sources */,
 				5A6510102B300B96008C5A9E /* ContentView.swift in Sources */,
+				5AC9E3262B31286200A52F8B /* HorizentalScorllTapView.swift in Sources */,
 				5A65103E2B300D5E008C5A9E /* FullSheetView.swift in Sources */,
 				5A65103C2B300CC8008C5A9E /* SheetView.swift in Sources */,
 				5A6510482B30141B008C5A9E /* ColorView.swift in Sources */,
