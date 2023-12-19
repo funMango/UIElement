@@ -20,15 +20,20 @@ struct HorizentalScrollView: View {
                         .frame(width: 50, height: 50)
                         .background(selectColor(with: index))
                         .cornerRadius(50)
+                        .transition(.opacity)
                         .onTapGesture {
-                            selectedNum = index
+                            withAnimation(.easeOut(duration: 0.3)) {
+                                selectedNum = index
+                            }
                         }
                 }
             }
         }
         .padding(20)
     }
-    
+}
+
+extension HorizentalScrollView {
     func selectColor(with index: Int) -> Color {
         if selectedNum == index {
             return .red
