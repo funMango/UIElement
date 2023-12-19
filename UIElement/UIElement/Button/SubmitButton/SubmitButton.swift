@@ -48,9 +48,8 @@ struct SubmitButton: View {
             .frame(width: self.width, height: 50, alignment: .center)
             .background(.orange)
             .cornerRadius(25)
-            
-            
-            
+            .disabled(state == .complete)
+                                    
             Button {
                 withAnimation(animation) {
                     self.state = .complete

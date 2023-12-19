@@ -12,7 +12,7 @@ struct LoadingCircle: View {
     private var size: CGFloat = 25
     
     private var animation: Animation {
-        .easeInOut
+        .easeInOut(duration: 0.3)
         .speed(0.3)
         .repeatForever(autoreverses: false)
     }

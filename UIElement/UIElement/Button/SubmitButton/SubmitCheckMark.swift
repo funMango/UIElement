@@ -12,7 +12,7 @@ struct SubmitCheckMark: View {
     private var color : Color = .green
     private var size: CGFloat = 25
     
-    var animation : Animation {        
+    var animation : Animation {
         .interpolatingSpring(stiffness: 170, damping: 15)
         .speed(0.6)
         .delay(0.8)
