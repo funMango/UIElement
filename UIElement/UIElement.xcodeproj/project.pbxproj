@@ -27,6 +27,7 @@
 		5AC9E32C2B31592D00A52F8B /* SubmitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC9E32B2B31592D00A52F8B /* SubmitButton.swift */; };
 		5AC9E32F2B315A8B00A52F8B /* LoadingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC9E32E2B315A8B00A52F8B /* LoadingCircle.swift */; };
 		5AC9E3312B31623600A52F8B /* SubmitCheckMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC9E3302B31623600A52F8B /* SubmitCheckMark.swift */; };
+		5AC9E3332B31706900A52F8B /* SubmitIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC9E3322B31706900A52F8B /* SubmitIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		5AC9E32B2B31592D00A52F8B /* SubmitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitButton.swift; sourceTree = "<group>"; };
 		5AC9E32E2B315A8B00A52F8B /* LoadingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircle.swift; sourceTree = "<group>"; };
 		5AC9E3302B31623600A52F8B /* SubmitCheckMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitCheckMark.swift; sourceTree = "<group>"; };
+		5AC9E3322B31706900A52F8B /* SubmitIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				5AC9E32B2B31592D00A52F8B /* SubmitButton.swift */,
 				5AC9E32E2B315A8B00A52F8B /* LoadingCircle.swift */,
 				5AC9E3302B31623600A52F8B /* SubmitCheckMark.swift */,
+				5AC9E3322B31706900A52F8B /* SubmitIcon.swift */,
 			);
 			path = SubmitButton;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				5A65103C2B300CC8008C5A9E /* SheetView.swift in Sources */,
 				5A6510482B30141B008C5A9E /* ColorView.swift in Sources */,
 				5AC9E3292B3151BA00A52F8B /* DatePickerView.swift in Sources */,
+				5AC9E3332B31706900A52F8B /* SubmitIcon.swift in Sources */,
 				5A6510412B300E55008C5A9E /* FullScreenCover.swift in Sources */,
 				5AC9E32C2B31592D00A52F8B /* SubmitButton.swift in Sources */,
 				5A6510442B301114008C5A9E /* MyNavigationStack.swift in Sources */,
