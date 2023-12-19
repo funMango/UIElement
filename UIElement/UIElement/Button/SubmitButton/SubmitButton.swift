@@ -14,7 +14,7 @@ enum SubmitBtnState: String {
 }
 
 struct SubmitButton: View {
-    @State var width: CGFloat = 100
+    @State var width: CGFloat = 120
     @State var state: SubmitBtnState = .submit
     
     var animation : Animation {
@@ -33,11 +33,11 @@ struct SubmitButton: View {
                     case .loading:
                         LoadingCircle()
                         Spacer()
-                    case .submit:
-                        Text("")
                     case .complete:
                         SubmitCheckMark()
                         Spacer()
+                    case .submit:
+                        Text("")
                     }
                
                     Text(state.rawValue)

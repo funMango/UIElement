@@ -10,7 +10,7 @@ import SwiftUI
 struct SubmitCheckMark: View {
     @State private var showCheckMark = -22
     private var color : Color = .green
-    private var size: CGFloat = 30
+    private var size: CGFloat = 25
     
     var animation : Animation {        
         .interpolatingSpring(stiffness: 170, damping: 15)

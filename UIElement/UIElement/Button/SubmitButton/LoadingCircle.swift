@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoadingCircle: View {
     @State private var isLoading = false
-    private var size: CGFloat = 20
+    private var size: CGFloat = 25
     
     private var animation: Animation {
         .easeInOut
